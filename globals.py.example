@@ -1,0 +1,26 @@
+class Constants:
+    '''
+    Classe de variáveis globais, contendo informações sensíveis e caminhos de arquivos.
+    '''
+    CLIENT_ID: str = ""
+    CLIENT_SECRET: str = ""
+    GRANT_TYPE: str = ""
+    PASSWORD: str = ""
+    SCOPE: str = ""
+    USERNAME: str = ""
+
+    DATABRICKS_TOKEN: str = ""
+
+    PATH_CERTIFICADO: str = ""
+    PATH_COOP_KEY: str = ""
+    PATH_DRIVER: str = r""
+
+    FLAG_HEADLESS: bool = ""
+
+    PATH_BASES: str = r""
+    PATH_LOGS: str = r""
+    
+    EP_DATABRICKS: str = ""
+    EP_MTLS_TOKEN: str = ""
+    EP_DISPARO_WHATS: str = ""
+    
